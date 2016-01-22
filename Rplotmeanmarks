@@ -1,0 +1,5 @@
+marks <- c(78,98,100)
+names(marks) <- c("Vasanth","Raghava","Gautam")
+mean(marks)
+barplot(marks)
+abline(h=mean(marks))
